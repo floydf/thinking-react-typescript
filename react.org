@@ -1,0 +1,90 @@
+
+* Tue, 3.28
+
+The table build and runs.  In a very simple form.  Extend it to complete the static version.
+
+The category is not working.  Figure out how to debug this.
+
+Complete.  Works as advertised.  Package up and put it up in Git.
+
+* Mon, 3.27
+
+Where are we?  How to make it build.
+
+webpack -p
+
+How to load it.
+
+https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+
+webpack-dev-server
+
+* Mon, Mar 13
+
+Thinking in React.
+https://facebook.github.io/react/docs/thinking-in-react.html
+
+Ok, it builds, using Typescript, and the type checking works really well.  Does not load up the React web tools.  Not sure how big a deal this is.
+
+* Sun, Mar 12
+
+Getting the React dev tools running.
+
+Down a rabbit hole trying to get the react debug tools working, then found via the Internet the different run versions in package.json.
+
+Where are we going?
+
+Bootstrap.css for prototyping.  It will not be adequate once Ray gets involved: he wants things to look very particular.
+
+JQuery for AJAX
+
+Server Side events for live events
+
+React as the framework for page composition.
+
+Handle everything on the client side, migrate to server side as we get closer to production.
+
+1. Create working framework, using the Judo as a starting point.  Static server.  But instead of babel, we want to use Typescript.  Let's see how painful this will be.
+
+* Sat, Mar 11
+
+CSS FlexBox
+https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
+
+React and Typescript
+http://blog.wolksoftware.com/working-with-react-and-typescript
+
+Building react on the server side
+https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app
+
+Made the static page work, and then the universal version.  It's not clear exactly how this is working, and I need to spend more time with the working code to grok the mechanism.  Added some console.log to the server side.  Have not yet been able to get any tracing in the client side.
+
+** Google Calendar page elements
+
+Google Calendar will be the type of UI that we want to emulate.  Elements:
+1. Top line
+   Identifying image -- APG
+   Search box
+   Application Selector, matrix, with drop down
+   Alerts
+   Account
+
+2. Second Line - Navigation Panel
+
+3. Left Navigation Bar
+
+4. Main page
+
+Settings Page
+
+1. Top Navigation Bar
+
+2. Left Navigation Bar
+
+3. Settings Page
+
+
+
+
+
+
